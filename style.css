@@ -123,7 +123,6 @@ body{
 .daily2{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 15px;
 }
 
@@ -172,7 +171,7 @@ body{
     }
 }
 
-.self{
+.self-care{
     background-color: var(--Soft-orange-self-care);
     .back{
         background-image: url(./images/icon-self-care.svg);
@@ -212,16 +211,18 @@ body{
 
     .daily2{
         padding: 14px;
+        display: flex;
+        flex-direction: column;
     }
 
 
     
     .first{
-        font-size: 1.5rem;
+        font-size: 3.5rem;
     }
 
     .second{
-        font-size: .5rem;
+        font-size: .8rem;
     }
 
 
@@ -263,6 +264,23 @@ body{
         align-items: start;
         height: 60%;
     }
+
+    .daily2{
+        padding: 14px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    
+    .first{
+        font-size: 4.5rem;
+    }
+
+    .second{
+        font-size: 1.2rem;
+    }
+
 
     .rep{
         font-size: 1rem;
